@@ -2,7 +2,6 @@
     if (!gallery) {
         throw Error('No Gallery Found');
     }
-
     // Select the elements we need
     const images = Array.from(gallery.querySelectorAll('img'));
     const modal = document.querySelector('.modal');
